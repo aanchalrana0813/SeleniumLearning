@@ -13,9 +13,10 @@ public class IntroToSelenium {
 		
 		WebDriver driver = new ChromeDriver(); // Implements all the Web and Chrome Methods
 		
-		WebDriver driver1 = new FirefoxDriver();// Implements all Web and Firefox Methods
+		// WebDriver driver1 = new FirefoxDriver();// Implements all Web and Firefox Methods
 		
-		
+		driver.get("https://modest-pasteur-2db493.netlify.app/"); // to open any link 
+
 		
 
 	}
