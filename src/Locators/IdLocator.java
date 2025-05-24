@@ -4,16 +4,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LocatorsUses {
+public class IdLocator{
 
 	public static void main(String[] args) {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://modest-pasteur-2db493.netlify.app/");
+		driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		
-		//Locating an element by its ClassName
-		driver.findElement(By.className("btn-primary")).click(); 
+		//Loacting an element by its Id
+		driver.findElement(By.id("inputUsername")).sendKeys("rahul");
 
 	}
 
